@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dm Sans';
+}
+
+
+main{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4EA;
+}
+
+
+#presskey{
+    background-color: #FFE397;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    display: block;
+}
+
+
+#container{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: none;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.item{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.item span{
+    font-size: 1.5rem;
+}
+
+.key{
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #FFE397;
+    font-size: 1.3rem;
+}
